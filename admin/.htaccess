@@ -1,0 +1,32 @@
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+<Files config.php>
+order allow,deny
+deny from all
+</Files>
+
+<Files config/.htaccess>
+order allow,deny
+deny from all
+</Files>
+
+
+ErrorDocument 404 /native_sanindo/examples/404/index.html 
+
+Options +FollowSymLinks
+RewriteEngine On
+ 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^login$ login.php [NC,L]
+ 
+
+ErrorDocument 403 https://envato.ukiedev.com/404-error/fighting/
+
+
+

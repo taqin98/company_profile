@@ -1,0 +1,35 @@
+.button {
+    display: inline-block;
+    padding: 10px 18px;
+    background: transparent;
+    border: 1px solid #E63046;
+    color: #222;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.button:hover {
+    background-color: #E63046;
+    color: #fff;
+    transition: .3s;
+}
+.button:active,
+.button.is-checked {
+    color: #fff;
+    background: #E63046;
+}
+.button-group {
+    margin-bottom: 60px;
+}
+@media only screen and (max-width: 767px) {
+    .button {
+        padding: 10px 18px;
+        font-size: 12px;
+        margin-bottom: 11px;
+    }
+    .button-group {
+        margin-bottom: 40px;
+    }
+}

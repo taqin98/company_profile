@@ -1,0 +1,3 @@
+Options -Indexes
+
+ErrorDocument 403 https://envato.ukiedev.com/pack404/worker/

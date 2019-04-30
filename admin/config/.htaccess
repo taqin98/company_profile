@@ -1,0 +1,4 @@
+Options -Indexes
+
+ErrorDocument 403 https://envato.ukiedev.com/404-error/fighting/
+
